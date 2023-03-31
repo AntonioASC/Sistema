@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+</head>
+<body>
+    <h1>Administrador</h1>
+
+    <h1>Registro de Productos</h1>
+
+    <form action="" name='regisProd' method="post">
+        <label for="Oidproducto">idProducto:</label>
+        <input type="text" name="idProductoO" id="Oidproducto" required>
+        <br>
+        <br>
+        <label for="ONombre">Nombre:</label>
+        <input type="text" name="nombreO" id="ONombre" required>
+        <br>
+        <br>
+        <label for="0Descripcion">Descripción:</label>
+        <input type="text" name="descripcion0" id="ODescripcion" >
+        <br>
+        <br>
+        <label for="OContenido">Contenido:</label>
+        <input type="text" name="ContenidoO" id="OContenido" required>
+        <input type="" name="nomenclaturaO" id="ONomenclatura" list="listN" required>
+        <datalist id="listN">
+            <option value="Kg">Kilogramos</option>
+            <option value="g">Gramos</option>
+            <option value="L">Litros</option>
+            <option value="ml">Mililitros</option>
+        </datalist> 
+        <br>
+        <br>
+        <label for="OPrecioMen">PrecioMen:</label>
+        <input type="number" name="precioMenO" id="OPrecioMen" required>
+        <br>
+        <br>
+        <label for="OPrecioMay">PrecioMay:</label>
+        <input type="number" name="precioMayO" id="OPrecioMay" required>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" >
+
+    </form>  
+</body>
+</html>
